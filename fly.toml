@@ -1,0 +1,8 @@
+app = "retrochat-relay"
+
+[[services]]
+  internal_port = 5555
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 5555
